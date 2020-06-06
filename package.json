@@ -1,0 +1,22 @@
+{
+  "name": "meetup-io",
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": [
+    "packages/api",
+    "packages/apps/*",
+    "packages/commons/*"
+  ],
+  "repository": "git@github.com:Meetup-io/Meetup-io.git",
+  "contributors": [
+    "Marwen CHERIF <marwen.cherif@gmail.com>",
+    "Ayoub KAMMOUN <ayoubkammoun@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^8.1.0"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.0"
+  }
+}
