@@ -14,9 +14,11 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "nestjs-easyconfig": "^1.9.3",
     "uuid": "^8.1.0"
   },
   "devDependencies": {
+    "cross-env": "^7.0.2",
     "lerna": "^3.22.0"
   }
 }
